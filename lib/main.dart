@@ -91,7 +91,7 @@ class _HomeState extends State<Home> {
   }
   
   Future<http.Response> sendImage(String img) async {
-    final Uri url = Uri.parse('https://serverless-ejust.onrender.com/upload');
+    final Uri url = Uri.parse('https://...');
     try {
       final response = await http.post(
         url,
